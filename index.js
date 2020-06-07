@@ -9,7 +9,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 client.on('ready', async () => {
 
 var server = client.guilds.get("712773337864077382");
-var channel = server.channels.get("717115306446946406")
+var channel = server.channels.get("719307658271916085")
 
         console.log(`Logged in as ${client.user.username}, ready to auto bump.`);
         for (var i = 0; i < 1000000; i++) {
